@@ -10,7 +10,7 @@ This project is being developed as a hardware input peripheral for the **[TimOS]
 
 ## Demo
 
-[![ForearmPad Demo](https://img.youtube.com/vi/68rtDSnFRxo/maxresdefault.jpg)](https://www.youtube.com/watch?v=68rtDSnFRxo)
+[![ForearmPad Demo]](https://www.youtube.com/watch?v=68rtDSnFRxo)
 
 ---
 
