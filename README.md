@@ -4,7 +4,7 @@
 
 ForearmPad turns a left forearm into a 15 cm virtual trackpad using an ultrasonic distance sensor and an ESP32 microcontroller. No finger dexterity required. No buttons to press. Gestures are detected by hovering and moving the right hand above the forearm, emitting Bluetooth HID mouse events to any connected device.
 
-This project is being developed as a hardware input peripheral for the **[TimoS](https://github.com/theDapperFoxtrot/timos)** project by [the Dapper Foxtrot](https://github.com/theDapperFoxtrot) — an accessible input layer for VR that enables people who cannot use fine motor hand control to operate computers and VR applications autonomously.
+This project is being developed as a hardware input peripheral for the **[TimOS](https://github.com/theDapperFoxtrot/timos)** project by [the Dapper Foxtrot](https://github.com/theDapperFoxtrot) — an accessible input layer for VR that enables people who cannot use fine motor hand control to operate computers and VR applications autonomously.
 
 ---
 
@@ -20,7 +20,7 @@ Most computer input devices — mice, trackpads, keyboards — assume fully func
 
 ForearmPad is designed from the ground up for **input without finger use**. The forearm is a large, stable body surface that remains accessible even when hand function is significantly reduced. By pointing a single ultrasonic sensor along the forearm axis, we get a continuous 1D position reading that maps cleanly onto left click, right click, and scroll — the three most essential mouse actions.
 
-This is part of a broader effort in the TimoS ecosystem to provide **input redundancy**: every meaningful computer action should be triggerable through multiple modalities, so that a user only needs *one* working input method.
+This is part of a broader effort in the TimOS ecosystem to provide **input redundancy**: every meaningful computer action should be triggerable through multiple modalities, so that a user only needs *one* working input method.
 
 ---
 
@@ -132,15 +132,15 @@ All tuning constants are at the top of `ForearmPad.ino`:
 
 ---
 
-## TimoS Integration
+## TimOS Integration
 
-ForearmPad is being developed as a peripheral input device for **TimoS**, an open-source accessible input layer for VR built by [the Dapper Foxtrot](https://github.com/theDapperFoxtrot).
+ForearmPad is being developed as a peripheral input device for **TimOS**, an open-source accessible input layer for VR built by [the Dapper Foxtrot](https://github.com/theDapperFoxtrot).
 
-TimoS translates diverse inputs — head tracking, eye gaze, voice commands, controller collision, and assistive peripherals — into standard mouse, keyboard, and gamepad events. It runs as a SteamVR overlay, requiring no OS-level configuration, and is designed for people who cannot use conventional hand control to operate VR and desktop applications.
+TimOS translates diverse inputs — head tracking, eye gaze, voice commands, controller collision, and assistive peripherals — into standard mouse, keyboard, and gamepad events. It runs as a SteamVR overlay, requiring no OS-level configuration, and is designed for people who cannot use conventional hand control to operate VR and desktop applications.
 
-ForearmPad slots into the TimoS **input redundancy model**: users only need one working input method, and ForearmPad provides a hands-free, dexterity-free option for left/right click and scroll — the most critical mouse actions for navigating any interface.
+ForearmPad slots into the TimOS **input redundancy model**: users only need one working input method, and ForearmPad provides a hands-free, dexterity-free option for left/right click and scroll — the most critical mouse actions for navigating any interface.
 
-> TimoS is currently in active development and not yet publicly available.
+> TimOS is currently in active development and not yet publicly available.
 
 ---
 
@@ -149,7 +149,7 @@ ForearmPad slots into the TimoS **input redundancy model**: users only need one 
 - [ ] Multi-sensor version for 2D position tracking (absolute cursor movement)
 - [ ] Double-tap gesture for drag lock
 - [ ] Configurable zone split via serial command (no reflash needed)
-- [ ] TimoS BLE client integration
+- [ ] TimOS BLE client integration
 - [ ] Battery-powered housing with forearm strap
 
 ---
@@ -160,4 +160,4 @@ MIT
 
 ---
 
-*Built as part of the accessibility hardware ecosystem for the TimoS project.*
+*Built as part of the accessibility hardware ecosystem for the TimOS project.*
