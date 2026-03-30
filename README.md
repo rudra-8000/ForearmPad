@@ -8,6 +8,12 @@ This project is being developed as a hardware input peripheral for the **[TimoS]
 
 ---
 
+## Demo
+
+[![ForearmPad Demo](https://img.youtube.com/vi/68rtDSnFRxo/maxresdefault.jpg)](https://www.youtube.com/watch?v=68rtDSnFRxo)
+
+---
+
 ## Why This Exists
 
 Most computer input devices — mice, trackpads, keyboards — assume fully functional hand and finger dexterity. For people with conditions like ALS, cerebral palsy, spinal cord injury, or other motor impairments, standard input hardware is a barrier rather than a tool.
